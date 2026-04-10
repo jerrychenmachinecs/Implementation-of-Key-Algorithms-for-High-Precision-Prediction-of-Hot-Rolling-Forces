@@ -1,0 +1,23 @@
+# High-Precision Hot-Rolling Force Prediction System 🏭
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-EE4C2C.svg)](https://pytorch.org/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-3.3+-882B21.svg)](https://lightgbm.readthedocs.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+Official PyTorch implementation of the core algorithms from the paper: **"High-precision rolling force prediction for hot rolling based on multimodal physical information and reinforcement learning"**.
+
+This repository provides an industrial-grade, closed-loop AI system designed for hot strip mill production. It uniquely integrates **Data-Driven Deep Learning**, **Mechanistic Physical Models**, **Reinforcement Learning (RL)**, and **Model Predictive Control (MPC)** to achieve unprecedented accuracy and robustness in complex industrial environments.
+
+---
+
+## 📂 Repository Structure
+
+```text
+.
+├── anomaly_engine.py    # Residual-Physical Dual-Driven Detection & Correction Engine
+├── ddpg_tuner.py        # DDPG Agent & Environment for Adaptive Hyperparameter Tuning
+├── network.py           # Multi-Channel CNN-RNN-Attention Architecture
+├── physical_layer.py    # Differentiable Physics Constraints (Johnson-Cook / Zener-Hollomon)
+├── requirements.txt     # Python Dependencies
+└── README.md            # Project Documentation
